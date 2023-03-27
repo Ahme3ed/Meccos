@@ -1,0 +1,331 @@
+
+.product_co
+{
+    width:var(--CONTENTWID);
+    margin:0 auto;
+    margin-top:45px;
+    display: flex;
+    column-gap: 5px;
+}
+.product_co .left-sec,
+.product_co .right-sec
+{
+    display: flex;
+    flex-flow: column nowrap;
+    width:80%;
+    row-gap: 5px;
+}
+.product_co .right-sec
+{
+    width:20%;
+
+}
+.product_co .product_cont
+{
+
+    display: flex;
+    flex-flow: row nowrap;
+    max-height: fit-content;
+    border: 1px solid rgba(34, 34, 255, 0.088);
+    column-gap: 5px;
+    background-color: #fff;
+    height: fit-content;
+
+
+
+}
+.product_co .ppl_also_wat
+{
+    height: fit-content;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid rgba(34, 34, 255, 0.088);
+    background-color: #fff;
+
+    
+}
+.product_co .ppl_also_wat .con_title
+{
+    padding: 5px;
+    padding-left: 8px;
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+.product_co .ppl_also_wat .products
+{
+    width: 100%;
+    display: flex;
+    column-gap: 5px;
+    overflow-x: scroll;
+
+
+}
+.product_co .ppl_also_wat .products a
+{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+
+.product_co .ppl_also_wat .products .product
+{
+    width:200px;
+    background-color: #ffffff;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 5px;
+    height: 300px;
+}
+
+.product_co .ppl_also_wat .products .product .product-img-box,
+.product_co .ppl_also_wat .products .product .product-img-box img
+{
+    width:100%;
+}
+.product_co .ppl_also_wat .products .product .info
+{
+    padding: 10px;
+}
+
+.product_co .paying_options 
+{
+    min-height: 300px;
+    background-color: #fff;
+    border: 1px solid rgba(34, 34, 255, 0.088);
+    display: flex;
+    flex-flow: column nowrap;
+    padding-left: 10px;
+    font-size: .8em;
+    font-weight: bold;
+    height: fit-content;
+    padding-bottom: 10px;
+
+
+
+}
+
+.product_co .paying_options  figcaption
+{
+    width: 100%;
+
+    min-height: 20px;
+    padding: 9px 0 9px 0;
+}
+
+.product_co .paying_options select
+{
+    width: 90%;
+    margin:0 auto;
+    margin-top: 3px;
+    height: 30px;
+    border:0;
+    border: 1px solid rgba(34, 34, 255, 0.088);
+    outline: none;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+.product_co .paying_options .del_info
+{
+    display: flex;
+    row-gap: 5px;
+    flex-flow: column nowrap;
+}
+.product_co .paying_options .del_fees
+{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    border: 1px solid rgba(34, 34, 255, 0.098);
+    width: 90%;
+    padding-right: 5px;
+    height: 27px;
+    row-gap: 5px;
+    
+
+}
+.product_co .paying_options .del_fees .icon
+{
+    border-right: 1px solid rgba(112, 112, 112, 0.107);
+    padding: 5px;
+    width: 30px;
+    text-align: center;
+    color: #2222ff;
+
+
+}
+.product_co .paying_options .del_info .desc
+{
+    position: relative;
+    width: 90%;
+    font-size: .9em;
+    border:1px solid rgba(34, 34, 255, 0.248) ;
+    padding: 5px;
+    margin-top: 8px;
+}
+.product_co .paying_options .del_info .desc::before
+{
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    top: -7px;
+    left: calc(50% - 10px);
+    transform: rotate(45deg);
+    border:1px solid rgba(34, 34, 255, 0.248) ;
+    border-bottom: 0;
+    border-right: 0;
+    border-style: solid;
+}
+
+
+.product_co .product_cont .product_img
+{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.product_co .product_cont .product_img .product-img
+{
+    max-width:250px;
+}
+.product_co .product_cont .product_img .product_pics img
+{
+    width:40px;
+    cursor: pointer;
+}
+
+.product_co .product_cont .product_details
+{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-flow: column;
+    row-gap: 6px;
+    margin-top: 10px;
+
+}
+
+.product_co .product_cont .product_details .title
+{
+    
+    font-size: 30px;
+    font-size: 1.5rem;
+    font-family: 'Tajawal' , sans-serif;
+    direction: rtl;
+    padding-right: 15px;
+
+}
+
+.product_co .product_cont .product_details .brand
+{
+    font-size: .8rem;
+    background-color: #6161fc;
+    width:fit-content;
+    padding:3px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 2px;
+}
+.product_co .product_cont .product_details .product_prices
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    width: fit-content;
+    border: 1px dotted rgba(0, 0, 0, 0.133);
+    padding: 10px;
+    
+}
+.product_co .product_cont .product_details .product_prices::before
+{
+    content: '';
+    position: absolute;
+    width:28px;
+    height:28px;
+    border: 0;
+    clip-path: circle(49.7% at 100% 0);
+    background-color: #6161fc;
+    top: 0;
+    right:0;
+}
+
+.product_co .product_cont .product_details .product_prices .prices p
+{
+    height: 25px;
+}
+
+.product_co .product_cont .product_details .price,
+.product_co .product_cont .product_details .sale
+
+{
+    font-size: 1.3em;
+    font-family: Majalla , sans-serif;
+}
+
+.product_co .product_cont .product_details .sale
+{
+    position: relative;
+    font-weight: 500;
+    width: 70px;
+    color:rgba(78, 78, 78, 0.854);
+
+}
+.product_co .product_cont .product_details .sale::before
+{
+    content: '';
+    border-bottom: 2px solid #ff0808;
+    position: absolute;
+    width: 55%;
+    left:0;
+    top:10px;
+    transform: rotate(-10deg);
+
+}
+
+.product_co .product_cont .product_details .product_prices .sale_perc
+{
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+.border
+{
+    width:100%;
+    border-top: 1px solid rgba(44, 44, 44, 0.098);
+}
+.product_co .product_cont .product_details .rating
+{
+    display:flex;
+    font-size: .8rem;
+    column-gap: 3px;
+    align-items: center;
+    font-weight: bold;
+
+}
+.product_co .product_cont .product_details .rating .stars
+{
+    width:fit-content;
+    display:flex;
+    align-items: center;
+    height: 30px;
+
+}
+
+.product_co .product_cont .product_details .rating .fa-star
+{
+    color: #ffb300;
+    font-size: .8rem;
+
+}
+
+.product_co .product .product_details .rating .stars .reviews
+{}
+
+
+
